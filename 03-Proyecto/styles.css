@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.contenedor {
+    background: rosybrown;
+    width: 100vw;
+    height: 100vh;
+}
+
+.seccion1 {
+    background: plum;
+    width: 562px;
+    height: 100px;
+}
+
+.seccion2 {
+    background: blanchedalmond;
+    width: 100%;
+    height: 50%;
+    font-size: 15px;
+}
+
+.seccion3 {
+    background: yellowgreen;
+}
+
+.seccion4 {
+    background: peru;
+    height: 2em;
+    /* 
+    em es proporcional al tamaño de fuente primario - universal
+    rem es proporcional al primer tamaño de fuente 
+    encontrado en un nivel superior
+    */
+}
+
+.titulo {
+    color: firebrick;
+}
+
+.subseccion2 {
+    background-color: blueviolet;
+    font-size: 20px;
+    width: 20rem;
+    height: 2rem;
+}
+
+.subseccion2 h1 {
+    color: aqua;
+}
