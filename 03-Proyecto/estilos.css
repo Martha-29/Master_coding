@@ -4,6 +4,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
     }
 
+
 .Profile{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -17,7 +18,7 @@
 .Profilepic{
     border-radius: 95%;
     padding-top: 1em;}
-
+    
 h1{
     color: white;
     text-align: center;
@@ -76,11 +77,7 @@ ul{
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
-.Left_column{
-    display: grid;
-    grid-template-columns: 1fr 8fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-}
+
 
 .Contact{
     grid-column-start: 1;
@@ -136,13 +133,6 @@ ul{
     margin: 0 auto;
     padding-right: 5em;
 }
-
-/*.logo {
-   display:flex;
-    border-radius: 35%;
-    padding-left: 2.5px;
-    padding-top: 2.5px;
-    border: 2px solid red;} */
 
 #Stellantis
 {
