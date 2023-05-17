@@ -7,7 +7,7 @@
 
 .Profile{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 75% 25%;
     background-color: #002868;
     padding-left: 6em;
@@ -27,7 +27,7 @@ h1{
     color: white;
     text-align: center;
     padding-top: 1.5em;
-    padding-right: 10em;}
+   }
 
 h2{
         color: lightskyblue;
@@ -38,8 +38,8 @@ h2{
     grid-column-start:2;
     font-style: italic;
     color: white;
-    text-align: center;
-    padding-left:10em;
+    text-align: right;
+   padding-right: 2%;
     font-family: cursive;
     
 }
