@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./cajero.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💰 Banca Digital 💰</title>
+</head>
+
+<body>
+    <div id="dashboard">
+        <h1 id="Bienvenida">💰 ¡Bienvenido a tu banca electrónica! 💳</h1>
+        <h1 id="UsuarioSara" class="escondido"> ¡Bienvenida Sara!</h1>
+        <h1 id="UsuarioEduardo" class="escondido"> ¡Bienvenido Eduardo!</h1>
+        <h1 id="UsuarioJorge" class="escondido"> ¡Bienvenido Jorge!</h1>
+    </div>
+
+    <form id="formulario">
+        <img src="avatar.webp" alt="Avatar" class="avatar" width="40%">
+        <span id="advertencia"> ¡Un gusto verte de nuevo! 🤩 <br> <br> Por favor, ingresa tus datos, recuerda que los
+            campos son sensibles a mayúsculas/minúsculas</span>
+        <span id="user">USUARIO:</span>
+        <input id="usuario" type="text" placeholder="Ingresa tu usuario">
+        <span id="errorUsuario" class="escondido">Usuario incorrecto</span>
+        <span id="contraseña"></span>PASSWORD:</span>
+        <input id="password" type="password" placeholder="Ingresa tu password">
+        <span id="errorPassword" class="escondido">Password incorrecto</span>
+        <button type="submit" id="Login">Ingresar</button>
+        <span id="errorDatos" class="escondido">Ingresa tus datos</span>
+    </form>
+
+    <form id="operaciones" class="operaciones escondido">
+        <span id="Mensaje"> Elige la operación que deseas realizar </span>
+        <img src="Sara.png" alt="AvatarSara" id="AvatarSara" class="avatar escondido" width="60%">
+        <img src="Jorge.png" alt="AvatarJorge" id="AvatarJorge" class="avatar escondido" width="60%">
+        <img src="Eduardo.svg" alt="AvatarEduardo" id="AvatarEduardo" class="avatar escondido" width="60%">
+        <button type="button" id="Balance-btn">Consultar saldo</button>
+        <span class="escondido" id="Saldo2">Tu saldo es de</span> 
+        <span id="Saldo" class="escondido" style= "font-weight:bold; color:purple"></span>
+        <span id="Mensaje-retiro" class="escondido"> Ingresa el monto que desea retirar </span>
+        <button type="button" id="Withdraw-btn">Retirar</button>
+        <input id="monto-retiro" type="number" class="escondido" placeholder="$0.00">
+        <button type="button" id="Confirmar-ret-btn" class="escondido">Confirmar retiro</button>
+        <span id="Mensaje-deposito" class="escondido"> Ingresa el monto que desea depositar </span>
+        <button type="button" id="Deposit-btn">Depositar</button>
+        <span id="Nuevosaldo4" class="escondido">Su nuevo saldo es de:</span>
+        <span id="Nuevosaldo3" class="escondido" style= "font-weight:bold; color:purple"></span>
+        <input id="monto-deposito" type="number" class="escondido" placeholder="$0.00">
+        <span id="Nuevosaldo2" class="escondido">Su nuevo saldo es de:</span>
+        <span id="Nuevosaldo" class="escondido" style= "font-weight:bold; color:purple"></span>
+        <button type="button" id="Confirmar-dep-btn" class="escondido">Confirmar depósito</button>
+        <button type="button" id="Regresar" class="escondido">Regresar</button>
+        <button type="reset" id="Log-out" >Cerrar sesión</button>
+
+    </form>
+
+    <script src="./cajero.js"></script>
+</body>
+
+</html>
